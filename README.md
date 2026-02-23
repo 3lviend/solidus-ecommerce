@@ -47,7 +47,6 @@ This application is configured for deployment with Kamal. See `config/deploy.yml
 
 For more detailed setup instructions, see:
 - [SETUP_INSTRUCTIONS.md](./SETUP_INSTRUCTIONS.md) - Detailed step-by-step setup guide
-- [QUICK_START.md](./QUICK_START.md) - Quick reference guide
 
 ## License
 
