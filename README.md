@@ -1,24 +1,54 @@
-# README
+# Solidus Store
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A complete e-commerce store built with [Solidus](https://solidus.io/), an open-source e-commerce platform for Ruby on Rails. This application provides both a storefront for customers and an admin panel for managing products, orders, and inventory.
 
-Things you may want to cover:
+## Features
 
-* Ruby version
+- 🛒 **Full-featured storefront** - Complete shopping experience with product browsing, cart, and checkout
+- 👨‍💼 **Admin panel** - Comprehensive admin interface for managing products, orders, customers, and more
+- 💳 **Payment integration** - PayPal Commerce Platform integration included
+- 🎨 **Modern UI** - Built with Tailwind CSS and View Components
+- 📦 **Sample data** - Pre-configured with sample products and categories
 
-* System dependencies
+## Getting Started
 
-* Configuration
+For detailed setup instructions, see [SETUP_INSTRUCTIONS.md](./SETUP_INSTRUCTIONS.md).
 
-* Database creation
+## Configuration
 
-* Database initialization
+Database configuration is in `config/database.yml`. Update it with your database credentials if needed.
 
-* How to run the test suite
+## Testing
 
-* Services (job queues, cache servers, search engines, etc.)
+Run the test suite:
 
-* Deployment instructions
+```bash
+# Run all tests
+bundle exec rspec
 
-* ...
+# Run specific test file
+bundle exec rspec spec/path/to/test_spec.rb
+```
+
+## Services
+
+This application uses:
+
+- **Solid Cache** - Database-backed caching
+- **Solid Queue** - Database-backed job queue
+- **Solid Cable** - Database-backed Action Cable adapter
+- **Puma** - Web server
+
+## Deployment
+
+This application is configured for deployment with Kamal. See `config/deploy.yml` for deployment configuration.
+
+## Documentation
+
+For more detailed setup instructions, see:
+- [SETUP_INSTRUCTIONS.md](./SETUP_INSTRUCTIONS.md) - Detailed step-by-step setup guide
+- [QUICK_START.md](./QUICK_START.md) - Quick reference guide
+
+## License
+
+This project uses Solidus, which is licensed under the BSD-3-Clause license.
