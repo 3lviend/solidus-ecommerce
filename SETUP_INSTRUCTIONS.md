@@ -35,6 +35,10 @@ bin/rails db:drop db:create
 
 Run the Solidus installer(use auto-accept to use defaults):
 
+Note:
+- Ignore if any files conflicted
+- This command will populate the sample data also from Solidus
+
 ```bash
 bin/rails g solidus:install --auto-accept
 ```
