@@ -94,7 +94,7 @@ GEM
     bindex (0.8.1)
     bootsnap (1.23.0)
       msgpack (~> 1.2)
-    brakeman (8.0.2)
+    brakeman (8.0.4)
       racc
     builder (3.3.0)
     cancancan (3.6.1)
@@ -651,8 +651,10 @@ DEPENDENCIES
   factory_bot (>= 4.8)
   factory_bot_rails
   ffaker (~> 2.13)
+  image_processing (~> 1.2)
   jbuilder
   kamal
+  mini_magick
   pg (~> 1.1)
   propshaft
   puma (>= 5.0)
